@@ -8,7 +8,7 @@ Cara pemakaian:
 1. Download Node js dari https://nodejs.org/en/
 2. buka file personalinfo.txt
 3. set informasi kamu(Harus sama persis dengan pilihan yang ada di google form)
-    - selalu akhiri dengan tanda ?*? sebagai pembatas
+    - selalu akhiri setiap baris dengan tanda ?*? sebagai pembatas
     - baris pertama email
     - baris kedua nama lengkap
     - baris ketiga jenjang
