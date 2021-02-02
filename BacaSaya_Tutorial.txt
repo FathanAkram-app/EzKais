@@ -11,8 +11,9 @@ Cara pemakaian:
     - baris ketiga jenjang
     - baris keempat tingkat
     - baris kelima kelas
-4. jika kalian sudah melakukan step diatas kedepannya tidak perlu dilakukan lagi
-5. jalankan script
+5. buka terminal, tulis ini di terminal-> npm install puppeteer
+6. jika kalian sudah melakukan step diatas kedepannya tidak perlu dilakukan lagi
+7. jalankan script
     1. buka terminal
     2. pergi ke folder ini menggunakan terminal
     3. tulis ini di terminal-> node main.js
