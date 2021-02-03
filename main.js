@@ -49,7 +49,9 @@ function getStuff() {
         if(x == 0){
             for (i = 0; i < 19; i++) {
                 page.keyboard.press('Tab');
-                page.keyboard.press('Space');
+                if(Math.floor(Math.random() * 2) == 1){
+                    page.keyboard.press('Space');
+                }
             }
             page.keyboard.press('Tab');
             page.keyboard.press('Tab');
@@ -57,7 +59,9 @@ function getStuff() {
         if(x == 1){
             for (i = 0; i < 8; i++) {
                 page.keyboard.press('Tab');
-                page.keyboard.press('Space');
+                if(Math.floor(Math.random() * 2) == 1){
+                    page.keyboard.press('Space');
+                }
             }
             page.keyboard.press('Tab');
             page.keyboard.press('Tab');
@@ -65,7 +69,9 @@ function getStuff() {
         if(x == 2){
             for (i = 0; i < 13; i++) {
                 page.keyboard.press('Tab');
-                page.keyboard.press('Space');
+                if(Math.floor(Math.random() * 2) == 1){
+                    page.keyboard.press('Space');
+                }
             }
             page.keyboard.press('Tab');
             page.keyboard.press('Tab');
