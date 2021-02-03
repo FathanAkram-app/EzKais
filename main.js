@@ -15,7 +15,7 @@ function getStuff() {
     console.log("█████╗░░░░███╔═╝█████═╝░███████║██║╚█████╗░")
     console.log("██╔══╝░░██╔══╝░░██╔═██╗░██╔══██║██║░╚═══██╗")
     console.log("███████╗███████╗██║░╚██╗██║░░██║██║██████╔╝")
-    console.log("╚══════╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═════╝░")
+    console.log("╚══════╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═════╝░ v0.2")
     console.log("by @fthn.mp4")
     const browser = await puppeteer.launch({
         headless: false,
