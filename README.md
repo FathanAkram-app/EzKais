@@ -1,3 +1,6 @@
+# EzKais
+Kais Bot
+
 welkom bek to mai guys
 Kais IDN Bot
 
