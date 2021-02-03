@@ -47,10 +47,15 @@ function getStuff() {
     await page.keyboard.sendCharacter(splitted[1]);
     for (x = 0; x < 3; x++) {
         if(x == 0){
-            for (i = 0; i < 19; i++) {
+            for (i = 0,a=0; i < 19; i++) {
                 page.keyboard.press('Tab');
                 if(Math.floor(Math.random() * 2) == 1){
                     page.keyboard.press('Space');
+                    a++;
+                }else{
+                    if(i == 18 && a == 0){
+                        page.keyboard.press('Space');
+                    }
                 }
             }
             page.keyboard.press('Tab');
@@ -61,6 +66,11 @@ function getStuff() {
                 page.keyboard.press('Tab');
                 if(Math.floor(Math.random() * 2) == 1){
                     page.keyboard.press('Space');
+                    a++;
+                }else{
+                    if(i == 6 && a == 0){
+                        page.keyboard.press('Space');
+                    }
                 }
             }
             page.keyboard.press('Tab');
@@ -71,6 +81,11 @@ function getStuff() {
                 page.keyboard.press('Tab');
                 if(Math.floor(Math.random() * 2) == 1){
                     page.keyboard.press('Space');
+                    a++;
+                }else{
+                    if(i == 11 && a == 0){
+                        page.keyboard.press('Space');
+                    }
                 }
             }
             page.keyboard.press('Tab');
